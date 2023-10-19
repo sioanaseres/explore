@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="main_box">
+      <picture>
+        <source srcset="./images/hero-img.jpg" type="image/jpg" />
+        <img
+          src="./images/hero-img.jpg"
+          alt="hero image background"
+          class="hero_img_BG"
+          width="1920"
+          height="640"
+          fetchpriority="high"
+          sizes="100vw"
+        />
+      </picture>
+      <div class="main_header">
+        <div class="header-container">
+          <h1 class="hero-title"><em>explore</em></h1>
+          <div class="hero-text">
+            <h2 class="blue-subtitle letter-by-letter">
+              Your guide to the best of culture and beaches in Greece
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="main-container"
+      style="background-image: url(./images/background.jpg)"
+    >
+      <div class="section1-container section-culture">
+        <div class="section-text-left">
+          <h2 class="section-subtitle">BEACH</h2>
+          <p>
+            When you go to Greece, you can immerse yourself in the culture, art,
+            sculpture, architecture, engineering, urban planning, politics,
+            economics, medicine, mathematics, physics, zoology, astronomy,
+            philosophy, literature, sport and myths that began - and still
+            inform - the very basis of Western civilisation. Or you can go to
+            the beach.
+          </p>
+        </div>
+
+        <div class="section-image-wrapper">
+          <picture>
+            <source srcset="./images/description1.jpg" />
+            <img
+              src="./images/description1.jpg"
+              alt="greece image"
+              class="section-image"
+              width="600"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+              sizes="(max-width: 900px) 90vw, 40vw"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="section1-container section-culture section-reverse">
+        <div class="section-text-left">
+          <h2 class="section-subtitle">CULTURE</h2>
+          <p>
+            Endlessly fascinating encounters dating back to ancient
+            civilisations are sprinkled throughout Greece like icing sugar on a
+            bougatsa. Of course, they are too numerous to list but here are a
+            few random highlights from across the ages. People have lived on the
+            island of Crete for 9000 years, and at the 3700-year-old Knossos
+            Palace in Heraklion, you discover the Minoan civilisation, the
+            oldest in Europe, and the home of the half-man, half-bull minotaur,
+            whose diet consisted of young virgins.
+          </p>
+        </div>
+
+        <div class="section-image-wrapper">
+          <picture>
+            <source srcset="./images/description2.jpg" />
+            <img
+              src="./images/description2.jpg"
+              alt="greece image"
+              class="section-image"
+              width="600"
+              height="340"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+              sizes="(max-width: 900px) 90vw, 40vw"
+            />
+          </picture>
+        </div>
+      </div>
+      <div class="section2-container section-culture">
+        <div class="section-text-all">
+          <h2 class="section-subtitle">How beautiful?</h2>
+          <p>
+            Yes, Greece is the cradle of civilisation. But it's also the hammock
+            of European beach culture and it's perfectly acceptable to go for
+            that reason only.
+          </p>
+        </div>
+
+        <!-- carousel -->
+
+        <div class="wrapper">
+          <div class="carousel">
+            <picture>
+              <source srcset="./images/carousel1.jpg" />
+              <img
+                src="./images/carousel1.jpg"
+                alt="greece image"
+                data-index="1"
+                width="600"
+                height="448"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
+                draggable="false"
+                class="carousel-item-1"
+              />
+            </picture>
+
+            <picture>
+              <source srcset="./images/carousel2.jpg" />
+              <img
+                src="./images/carousel2.jpg"
+                alt="greece image"
+                data-index="2"
+                width="600"
+                height="448"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
+                draggable="false"
+                class="carousel-item-2"
+              />
+            </picture>
+
+            <picture>
+              <source srcset="./images/carousel3.jpg" />
+              <img
+                src="./images/carousel3.jpg"
+                alt="greece image"
+                data-index="3"
+                width="600"
+                height="448"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
+                draggable="false"
+                class="carousel-item-3"
+              />
+            </picture>
+            <picture>
+              <source srcset="./images/carousel4.jpg" />
+              <img
+                src="./images/carousel4.jpg"
+                alt="greece image"
+                data-index="4"
+                width="600"
+                height="448"
+                loading="lazy"
+                decoding="async"
+                fetchpriority="low"
+                draggable="false"
+                class="carousel-item-4"
+              />
+            </picture>
+          </div>
+          <img src="./images/left-arrow.svg" alt="" id="left" class="arrow" />
+          <img src="./images/right-arrow.svg" alt="" id="right" class="arrow" />
+        </div>
+
+        <!-- end of carousel -->
+      </div>
+
+      <div class="section3-container section-culture">
+        <div class="section-text-all">
+          <h2 class="section-subtitle">Greece's beaches have stories, too.</h2>
+          <p>
+            Dionysus, god of wine, wooed Ariadne on the sandy shores of Naxos.
+            Kolovri Rock, off Corfu's Palaiokastritsa, is said to be Odysseus'
+            ship turned to stone by Poseidon and the seafaring hero's home,
+            Ithaca, has famously emerald waters and about 20 stunning beaches.
+          </p>
+        </div>
+
+        <div class="section-image-wrapper-bottom">
+          <picture>
+            <source srcset="./images/beach1.jpg" />
+            <img
+              src="./images/beach1.jpg"
+              alt="greece image"
+              class="section-image"
+              width="500"
+              height="334"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+              sizes="(max-width: 900px) 90vw, 40vw"
+            />
+          </picture>
+          <picture>
+            <source srcset="./images/beach2.jpg" />
+            <img
+              src="./images/beach2.jpg"
+              alt="greece image"
+              class="section-image"
+              width="500"
+              height="334"
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+              sizes="(max-width: 900px) 90vw, 40vw"
+            />
+          </picture>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <a href="https://www.youtube.com/watch?v=XhSFK2o-QWM" class="button">
+          <span>
+            <span>Explore</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
